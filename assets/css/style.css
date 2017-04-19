@@ -1,0 +1,38 @@
+body{
+  margin: 0 10%;
+  font-family: 'Arvo', serif;
+}
+
+/*titulo*/
+h1{
+  margin-left: 21px;
+}
+
+/*linea*/
+hr{
+  margin-left: 19px;
+  width: 107px;
+  height: 5px;
+  background-color: black;
+}
+
+/*foto generada con js*/
+.imagen {
+  display: inline-block;
+  margin: 2%;
+}
+
+/*div contenedor*/
+.foto, .imagen{
+  /*border-radius: 18px;*/
+  width: 300px;
+  height: 300px;
+}
+
+.imagen .text{
+  position: relative;
+  left: 81px;
+  bottom: 42px;
+  font-size: 21px;
+  color: white;
+}
